@@ -10,7 +10,7 @@ Chat em Tempo Real: Envio e recebimento de mensagens filtradas por contato.
 
 Banco de Dados: Persistência total de dados com PostgreSQL.
 
-🛠️ Como instalar e rodar (Guia Detalhado)
+🛠️ Como instalar e rodar 
 Se você acabou de baixar o projeto do GitHub, siga estes passos exatamente nesta ordem:
 
 1. Instalar as dependências
