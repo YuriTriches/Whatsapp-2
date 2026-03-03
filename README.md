@@ -64,8 +64,7 @@ CREATE TABLE IF NOT EXISTS mensagens (
 
 -- 3. Inserir Usuários de Teste (Opcional)
 INSERT INTO usuarios (nome_usuario, senha) VALUES 
-('Suporte Dev', '1234'),
-('Cleber o assasino maluco doido', '1234')
+('Nome', '1234'),
 ON CONFLICT (nome_usuario) DO NOTHING;
 
    ----------------------------------
