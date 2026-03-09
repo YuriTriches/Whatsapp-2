@@ -41,17 +41,7 @@ npm run dev
 ⚠️ Atenção com as Pastas
 Para que os comandos do npm funcionem, seu terminal deve estar dentro da pasta que contém o arquivo package.json. Se houver erro de ENOENT, use o comando cd indicado no passo 4.
 
-   ---------Banco De Dados----------------
--- 1. Criar Tabela de Usuários
-CREATE TABLE IF NOT EXISTS usuarios (
-    id SERIAL PRIMARY KEY,
-    nome_usuario VARCHAR(50) UNIQUE NOT NULL,
-    senha TEXT NOT NULL,
-    foto_url TEXT DEFAULT 'https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png',
-    online BOOLEAN DEFAULT false,
-    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
+   ---------Banco De Dados------------
 -- 2. Criar Tabela de Mensagens
 CREATE TABLE IF NOT EXISTS mensagens (
     id SERIAL PRIMARY KEY,
